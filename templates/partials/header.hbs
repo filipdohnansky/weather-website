@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>{{title}}</title>
+</head>
+<body class="bg-gray-400">
+<div class="z-10 fixed flex flex-wrap w-full">
+  <div class="w-full">
+    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-zinc-200">
+      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-700" href="#pablo">
+            blueGray Menu
+          </a>
+        </div>
+
+
+        <div class="pt-0 lg:flex-grow items-center">
+          <form class="flex lg:flex-row" action="">
+            <input type="text" placeholder="Placeholder" class="flex flex-col ml-auto px-2 py-1 placeholder-gray-300 text-white relative bg-gray-800 rounded text-sm border border-blueGray-300 outline-none focus:outline-none focus:ring"/>
+            <button class="text-blue-500 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none ease-linear transition-all duration-150" type="submit"
+                  >
+              Search
+            </button>
+          </form>
+        </div>
+
+
+        <div class="flex lg:flex-grow items-center" id="example-navbar-info">
+          <ul class="flex flex-col lg:flex-row list-none ml-auto">
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-700 hover:opacity-75" href="/">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-700 hover:opacity-75" href="/about">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-700 hover:opacity-75" href="/help">
+                Help
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
